@@ -4,6 +4,9 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QPushButton>
+#include <QHBoxLayout>
+#include <QSlider>
+#include <QSpinBox>
 
 namespace Ui {
 class Hello;
@@ -18,6 +21,7 @@ public:
     ~Hello();
     void CreateLable();
     void CreateButton(QApplication& app);
+    void CreateWidget();
 
 private:
     Ui::Hello *ui;
