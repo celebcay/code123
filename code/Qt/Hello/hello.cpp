@@ -15,6 +15,7 @@ Hello::~Hello()
 
 void Hello::CreateLable()
 {
-    QLabel* label = new QLabel("Hello Qt!");
+    QLabel* label = new QLabel("<h2><i>Hello</i>"
+    "<font color=red>Qt!</font></h2>");
     label->show();
 }
