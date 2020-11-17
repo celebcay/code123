@@ -1,3 +1,10 @@
+/*
+ * File Name: Hello
+ * Author：calebcay
+ * Mail：Calebcay@163.com
+ * Create Time：2020年11月17日
+ */
+
 #include "hello.h"
 #include <QApplication>
 
