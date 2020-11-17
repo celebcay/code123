@@ -19,3 +19,11 @@ void Hello::CreateLable()
     "<font color=red>Qt!</font></h2>");
     label->show();
 }
+
+void Hello::CreateButton(QApplication& app)
+{
+    QPushButton* button = new QPushButton("Quit!");
+    QObject::connect(button, SIGNAL(clicked()),
+                     &app, SLOT(quit()));
+    button->show();
+}

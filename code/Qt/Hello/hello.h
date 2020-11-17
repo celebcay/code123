@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QLabel>
+#include <QPushButton>
 
 namespace Ui {
 class Hello;
@@ -16,6 +17,7 @@ public:
     explicit Hello(QWidget *parent = nullptr);
     ~Hello();
     void CreateLable();
+    void CreateButton(QApplication& app);
 
 private:
     Ui::Hello *ui;

@@ -4,9 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Hello createLable;
-    createLable.CreateLable();
+    QApplication app(argc, argv);
+    Hello createHello;
+    createHello.CreateLable();
+    createHello.CreateButton(app);
 
-    return a.exec();
+    return app.exec();
 }
