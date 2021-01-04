@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>copy.jpg</file>
+        <file>cut.jpg</file>
+        <file>horizontal.jpg</file>
+        <file>image.png</file>
+        <file>new.jpg</file>
+        <file>open.jpg</file>
+        <file>paste.jpg</file>
+        <file>printImage.jpg</file>
+        <file>printText.jpg</file>
+        <file>redo.jpg</file>
+        <file>rotate.jpg</file>
+        <file>undo.jpg</file>
+        <file>vertical.jpg</file>
+        <file>zoomIn.jpg</file>
+        <file>zoomOut.jpg</file>
+    </qresource>
+</RCC>
